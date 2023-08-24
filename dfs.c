@@ -15,7 +15,7 @@ int A[5][5]={     // adj matrix
 	visited[i]=1;
 	for(int j=0;j<5;j++)
 	{
-		if(A[i][j]==1 && visited[j]!=1)
+		if(A[i][j]==1 && visited[j]!=1) // A[i][j]==1 jodi dutor majhe link thake , visited [j]!=1 age theke stack e preseent nei
 		{
 			dfs(j);
 		}
